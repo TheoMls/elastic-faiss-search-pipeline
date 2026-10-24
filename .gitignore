@@ -1,0 +1,22 @@
+# Python environment and caches
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+*.env
+
+# Datasets and Elasticsearch Data
+documents.csv
+queries.csv
+documents.jsonl
+
+# Phase 2 Embeddings Caches
+*.pkl
+
+# Elastic-start-local environment variables
+elastic-start-local/.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
